@@ -1,0 +1,36 @@
+{
+    "name": "@twinscom/stylelint-config",
+    "version": "1.0.0",
+    "description": "Stylelint Shareable Config",
+    "main": "index.json",
+    "scripts": {
+        "test": "node test.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/twinscom/stylelint-config.git"
+    },
+    "keywords": [
+        "stylelint",
+        "config",
+        "stylelint-config"
+    ],
+    "author": {
+        "name": "Evgeny Orekhov",
+        "url": "https://plus.google.com/+ЕвгенийОрехов"
+    },
+    "license": "CC0-1.0",
+    "bugs": {
+        "url": "https://github.com/twinscom/stylelint-config/issues"
+    },
+    "homepage": "https://github.com/twinscom/stylelint-config#readme",
+    "files": [
+        "index.json"
+    ],
+    "peerDependencies": {
+        "stylelint": "^8.3.0"
+    },
+    "dependencies": {
+        "stylelint-config-standard": "^18.0.0"
+    }
+}
