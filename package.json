@@ -28,9 +28,9 @@
         "index.json"
     ],
     "peerDependencies": {
-        "stylelint": "^8.3.0"
+        "stylelint": "^9.0.0"
     },
     "dependencies": {
-        "stylelint-config-standard": "^18.0.0"
+        "stylelint-config-standard": "^18.1.0"
     }
 }

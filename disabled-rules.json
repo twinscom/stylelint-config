@@ -22,10 +22,14 @@
     "selector-attribute-operator-blacklist": null,
     "selector-attribute-operator-whitelist": null,
     "selector-class-pattern": null,
+    "selector-combinator-blacklist": null,
+    "selector-combinator-whitelist": null,
     "selector-id-pattern": null,
     "selector-nested-pattern": null,
     "selector-pseudo-class-blacklist": null,
     "selector-pseudo-class-whitelist": null,
+    "selector-pseudo-element-blacklist": null,
+    "selector-pseudo-element-whitelist": null,
     "unit-blacklist": null,
     "unit-whitelist": null
 }
