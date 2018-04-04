@@ -34,6 +34,7 @@
         "selector-max-combinators": 5,
         "selector-max-compound-selectors": 5,
         "selector-max-id": 0,
+        "selector-max-pseudo-class": 5,
         "selector-max-specificity": "0,5,5",
         "selector-max-type": 5,
         "selector-max-universal": 0,
