@@ -17,6 +17,7 @@
         "function-comma-newline-before": "never-multi-line",
         "function-url-no-scheme-relative": true,
         "function-url-quotes": "always",
+        "linebreaks": "unix",
         "max-line-length": 80,
         "max-nesting-depth": 5,
         "media-feature-name-no-vendor-prefix": true,
