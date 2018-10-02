@@ -49,6 +49,7 @@
         "value-keyword-case": "lower",
         "value-list-comma-newline-before": "never-multi-line",
         "value-no-vendor-prefix": true,
-        "selector-no-qualifying-type": true
+        "selector-no-qualifying-type": true,
+        "no-empty-first-line": true
     }
 }
