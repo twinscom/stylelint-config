@@ -1,6 +1,6 @@
 {
     "name": "@twinscom/stylelint-config",
-    "version": "1.4.0",
+    "version": "1.5.0",
     "description": "Stylelint Shareable Config",
     "main": "index.json",
     "scripts": {
@@ -28,7 +28,7 @@
         "index.json"
     ],
     "peerDependencies": {
-        "stylelint": "^9.6.0"
+        "stylelint": "^9.10.1"
     },
     "dependencies": {
         "stylelint-config-standard": "^18.2.0"
