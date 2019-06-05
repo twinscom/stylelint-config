@@ -3,6 +3,7 @@
     "color-no-hex": null,
 
     "at-rule-blacklist": null,
+    "at-rule-property-requirelist": null,
     "at-rule-whitelist": null,
     "comment-word-blacklist": null,
     "custom-media-pattern": null,
