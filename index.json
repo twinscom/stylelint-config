@@ -51,7 +51,7 @@
         "value-no-vendor-prefix": true,
         "selector-no-qualifying-type": true,
         "no-empty-first-line": true,
-        "function-calc-no-invalid": true,
-        "block-no-empty": [true, {"ignore": ["comments"]}]
+        "block-no-empty": [true, {"ignore": ["comments"]}],
+        "unicode-bom": "never"
     }
 }
