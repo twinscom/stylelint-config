@@ -63,7 +63,8 @@
             {
                 "ignoreVariables": true,
                 "ignoreFunctions": false,
-                "ignoreKeywords": ["currentColor", "transparent", "inherit"]
+                "ignoreKeywords": ["currentColor", "transparent", "inherit"],
+                "disableFix": true
             }
         ]
     }
