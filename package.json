@@ -4,7 +4,7 @@
     "description": "Stylelint Shareable Config",
     "main": "index.json",
     "scripts": {
-        "test": "node test.js"
+        "test": "stylelint --config index.json **/*.css"
     },
     "repository": {
         "type": "git",
@@ -33,5 +33,8 @@
     "dependencies": {
         "stylelint-config-standard": "^19.0.0",
         "stylelint-declaration-strict-value": "^1.1.6"
+    },
+    "devDependencies": {
+        "stylelint": "^12.0.0"
     }
 }
