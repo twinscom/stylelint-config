@@ -4,7 +4,9 @@
     "description": "Stylelint Shareable Config",
     "main": "index.json",
     "scripts": {
-        "test": "stylelint --config index.json **/*.css"
+        "test": "stylelint --config index.json **/*.css",
+        "preversion": "npm test",
+        "postversion": "git push && git push --tags && npm publish"
     },
     "repository": {
         "type": "git",
