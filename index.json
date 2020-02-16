@@ -50,7 +50,6 @@
         "shorthand-property-no-redundant-values": true,
         "string-quotes": "double",
         "time-min-milliseconds": 100,
-        "value-keyword-case": "lower",
         "value-list-comma-newline-before": "never-multi-line",
         "value-no-vendor-prefix": true,
         "selector-no-qualifying-type": true,
