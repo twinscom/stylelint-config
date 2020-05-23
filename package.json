@@ -38,6 +38,6 @@
         "stylelint-declaration-strict-value": "^1.4.6"
     },
     "devDependencies": {
-        "stylelint": "^13.3.3"
+        "stylelint": "^13.5.0"
     }
 }
