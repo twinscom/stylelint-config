@@ -57,6 +57,9 @@
         "no-empty-first-line": true,
         "block-no-empty": [true, {"ignore": ["comments"]}],
         "unicode-bom": "never",
+        "alpha-value-notation": "percentage",
+        "color-function-notation": "modern",
+        "hue-degree-notation": "angle",
 
         "scale-unlimited/declaration-strict-value": [
             "/color/",
