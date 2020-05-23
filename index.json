@@ -50,7 +50,7 @@
         "selector-pseudo-element-no-unknown": true,
         "shorthand-property-no-redundant-values": true,
         "string-quotes": "double",
-        "time-min-milliseconds": 100,
+        "time-min-milliseconds": [100, {"ignore": ["delay"]}],
         "value-list-comma-newline-before": "never-multi-line",
         "value-no-vendor-prefix": true,
         "selector-no-qualifying-type": true,
