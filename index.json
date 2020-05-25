@@ -62,7 +62,7 @@
         "hue-degree-notation": "angle",
 
         "scale-unlimited/declaration-strict-value": [
-            "/color/",
+            "/color$/",
             {
                 "ignoreVariables": true,
                 "ignoreFunctions": false,
