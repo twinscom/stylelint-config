@@ -1,43 +1,47 @@
 {
-    "name": "@twinscom/stylelint-config",
-    "version": "3.0.1",
-    "description": "Stylelint Shareable Config",
-    "main": "index.json",
-    "scripts": {
-        "test": "stylelint --config index.json **/*.css",
-        "preversion": "npm test",
-        "postversion": "git push && git push --tags && npm publish"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/twinscom/stylelint-config.git"
-    },
-    "keywords": [
-        "stylelint",
-        "config",
-        "stylelint-config"
-    ],
-    "author": {
-        "name": "Evgeny Orekhov",
-        "url": "https://plus.google.com/+ЕвгенийОрехов"
-    },
-    "license": "CC0-1.0",
-    "bugs": {
-        "url": "https://github.com/twinscom/stylelint-config/issues"
-    },
-    "homepage": "https://github.com/twinscom/stylelint-config#readme",
-    "files": [
-        "index.json"
-    ],
-    "peerDependencies": {
-        "stylelint": ">=11.0.0"
-    },
-    "dependencies": {
-        "stylelint-config-standard": "^20.0.0",
-        "stylelint-declaration-block-no-ignored-properties": "^2.3.0",
-        "stylelint-declaration-strict-value": "^1.5.0"
-    },
-    "devDependencies": {
-        "stylelint": "^13.5.0"
-    }
+  "name": "@twinscom/stylelint-config",
+  "version": "3.0.1",
+  "description": "Stylelint Shareable Config",
+  "main": ".stylelintrc.json",
+  "scripts": {
+    "test": "stylelint **/*.css",
+    "preversion": "npm test",
+    "postversion": "git push && git push --tags && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twinscom/stylelint-config.git"
+  },
+  "keywords": [
+    "stylelint",
+    "config",
+    "stylelint-config"
+  ],
+  "author": {
+    "name": "Evgeny Orekhov",
+    "url": "https://plus.google.com/+ЕвгенийОрехов"
+  },
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/twinscom/stylelint-config/issues"
+  },
+  "homepage": "https://github.com/twinscom/stylelint-config#readme",
+  "files": [
+    "base.json",
+    ".stylelintrc.json"
+  ],
+  "peerDependencies": {
+    "stylelint": ">=11.0.0"
+  },
+  "dependencies": {
+    "prettier": "^2.0.5",
+    "stylelint-config-prettier": "^8.0.1",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-declaration-block-no-ignored-properties": "^2.3.0",
+    "stylelint-declaration-strict-value": "^1.5.0",
+    "stylelint-prettier": "^1.1.2"
+  },
+  "devDependencies": {
+    "stylelint": "^13.5.0"
+  }
 }

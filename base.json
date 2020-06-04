@@ -1,0 +1,56 @@
+{
+  "extends": ["stylelint-config-standard"],
+
+  "plugins": [
+    "stylelint-declaration-strict-value",
+    "stylelint-declaration-block-no-ignored-properties"
+  ],
+
+  "rules": {
+    "at-rule-no-vendor-prefix": true,
+    "color-named": "never",
+    "declaration-block-no-redundant-longhand-properties": true,
+    "declaration-no-important": true,
+    "font-family-name-quotes": "always-unless-keyword",
+    "font-weight-notation": "named-where-possible",
+    "function-url-no-scheme-relative": true,
+    "function-url-quotes": "always",
+    "max-nesting-depth": 5,
+    "media-feature-name-no-vendor-prefix": true,
+    "no-unknown-animations": true,
+    "number-max-precision": 2,
+    "property-no-vendor-prefix": true,
+    "selector-max-attribute": 5,
+    "selector-max-class": 5,
+    "selector-max-combinators": 5,
+    "selector-max-compound-selectors": 5,
+    "selector-max-id": 0,
+    "selector-max-pseudo-class": 5,
+    "selector-max-specificity": "0,5,5",
+    "selector-max-type": 5,
+    "selector-max-universal": 0,
+    "selector-no-vendor-prefix": true,
+    "selector-pseudo-element-colon-notation": "double",
+    "selector-pseudo-element-no-unknown": true,
+    "shorthand-property-no-redundant-values": true,
+    "time-min-milliseconds": [100, { "ignore": ["delay"] }],
+    "value-no-vendor-prefix": true,
+    "selector-no-qualifying-type": true,
+    "block-no-empty": [true, { "ignore": ["comments"] }],
+    "alpha-value-notation": "number",
+    "color-function-notation": "modern",
+    "hue-degree-notation": "angle",
+
+    "scale-unlimited/declaration-strict-value": [
+      "/color$/",
+      {
+        "ignoreVariables": true,
+        "ignoreFunctions": false,
+        "ignoreKeywords": ["currentColor", "transparent", "inherit"],
+        "disableFix": true
+      }
+    ],
+
+    "plugin/declaration-block-no-ignored-properties": true
+  }
+}
