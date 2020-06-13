@@ -35,7 +35,7 @@
     "shorthand-property-no-redundant-values": true,
     "time-min-milliseconds": [100, { "ignore": ["delay"] }],
     "value-no-vendor-prefix": true,
-    "selector-no-qualifying-type": true,
+    "selector-no-qualifying-type": [true, { "ignore": ["attribute"] }],
     "block-no-empty": [true, { "ignore": ["comments"] }],
     "alpha-value-notation": "number",
     "color-function-notation": "modern",
