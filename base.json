@@ -3,7 +3,8 @@
 
   "plugins": [
     "stylelint-declaration-strict-value",
-    "stylelint-declaration-block-no-ignored-properties"
+    "stylelint-declaration-block-no-ignored-properties",
+    "stylelint-group-selectors"
   ],
 
   "rules": {
@@ -52,6 +53,8 @@
       }
     ],
 
-    "plugin/declaration-block-no-ignored-properties": true
+    "plugin/declaration-block-no-ignored-properties": true,
+
+    "plugin/stylelint-group-selectors": true
   }
 }
