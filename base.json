@@ -40,6 +40,7 @@
     "alpha-value-notation": "number",
     "color-function-notation": "modern",
     "hue-degree-notation": "angle",
+    "no-duplicate-selectors": [true, { "disallowInList": true }],
 
     "scale-unlimited/declaration-strict-value": [
       "/color$/",
