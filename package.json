@@ -31,7 +31,7 @@
     ".stylelintrc.json"
   ],
   "peerDependencies": {
-    "stylelint": ">=13.6.0"
+    "stylelint": ">=13.10.0"
   },
   "dependencies": {
     "prettier": "^2.2.1",
@@ -44,6 +44,6 @@
     "stylelint-prettier": "^1.1.2"
   },
   "devDependencies": {
-    "stylelint": "^13.9.0"
+    "stylelint": "^13.10.0"
   }
 }

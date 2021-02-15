@@ -42,6 +42,7 @@
     "color-function-notation": "modern",
     "hue-degree-notation": "angle",
     "no-duplicate-selectors": [true, { "disallowInList": true }],
+    "declaration-block-no-duplicate-custom-properties": true,
 
     "scale-unlimited/declaration-strict-value": [
       "/color$/",
@@ -56,5 +57,8 @@
     "plugin/declaration-block-no-ignored-properties": true,
 
     "plugin/stylelint-group-selectors": true
-  }
+  },
+
+  "reportNeedlessDisables": true,
+  "reportInvalidScopeDisables": true
 }
