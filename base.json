@@ -42,7 +42,6 @@
     "color-function-notation": "modern",
     "hue-degree-notation": "angle",
     "no-duplicate-selectors": [true, { "disallowInList": true }],
-    "declaration-block-no-duplicate-custom-properties": true,
 
     "scale-unlimited/declaration-strict-value": [
       "/color$/",
