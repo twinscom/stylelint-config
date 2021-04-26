@@ -35,5 +35,6 @@
   "selector-pseudo-element-disallowed-list": null,
   "selector-pseudo-element-allowed-list": null,
   "unit-disallowed-list": null,
-  "unit-allowed-list": null
+  "unit-allowed-list": null,
+  "selector-disallowed-list": null
 }
