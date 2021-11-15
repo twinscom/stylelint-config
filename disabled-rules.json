@@ -6,8 +6,6 @@
   "at-rule-allowed-list": null,
   "comment-pattern": null,
   "comment-word-disallowed-list": null,
-  "custom-media-pattern": null,
-  "custom-property-pattern": null,
   "declaration-property-unit-disallowed-list": null,
   "declaration-property-unit-allowed-list": null,
   "declaration-property-value-disallowed-list": null,
@@ -16,7 +14,6 @@
   "function-url-scheme-disallowed-list": null,
   "function-url-scheme-allowed-list": null,
   "function-allowed-list": null,
-  "keyframes-name-pattern": null,
   "media-feature-name-disallowed-list": null,
   "media-feature-name-value-allowed-list": null,
   "media-feature-name-allowed-list": null,
@@ -25,10 +22,8 @@
   "selector-attribute-name-disallowed-list": null,
   "selector-attribute-operator-disallowed-list": null,
   "selector-attribute-operator-allowed-list": null,
-  "selector-class-pattern": null,
   "selector-combinator-disallowed-list": null,
   "selector-combinator-allowed-list": null,
-  "selector-id-pattern": null,
   "selector-nested-pattern": null,
   "selector-pseudo-class-disallowed-list": null,
   "selector-pseudo-class-allowed-list": null,
@@ -36,5 +31,6 @@
   "selector-pseudo-element-allowed-list": null,
   "unit-disallowed-list": null,
   "unit-allowed-list": null,
-  "selector-disallowed-list": null
+  "selector-disallowed-list": null,
+  "rule-selector-property-disallowed-list": null
 }
