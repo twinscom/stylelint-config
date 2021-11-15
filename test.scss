@@ -1,0 +1,21 @@
+@mixin button-base() {
+  @include typography(button);
+  @include ripple-surface;
+  @include ripple-radius-bounded;
+
+  position: relative;
+  display: inline-flex;
+  height: $button-height;
+  vertical-align: middle;
+  border: none;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &:disabled {
+    color: $mdc-button-disabled-ink-color;
+    pointer-events: none;
+    cursor: default;
+  }
+}

@@ -21,6 +21,19 @@ Then set your `.stylelintrc.json` config to:
 }
 ```
 
+## SCSS
+
+Based on
+[stylelint-config-standard-scss](https://github.com/stylelint-scss/stylelint-config-standard-scss)
+and
+[`stylelint-prettier`](https://github.com/prettier/stylelint-prettier).
+
+```json
+{
+  "extends": ["@twinscom/stylelint-config/scss"]
+}
+```
+
 ## [Changelog](https://github.com/twinscom/stylelint-config/releases)
 
 ## License
