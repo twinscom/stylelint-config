@@ -1,5 +1,9 @@
 {
-  "extends": ["./.stylelintrc.json", "stylelint-config-standard-scss"],
+  "extends": [
+    "./.stylelintrc.json",
+    "stylelint-config-standard-scss",
+    "stylelint-prettier/recommended"
+  ],
 
   "rules": {
     "at-rule-empty-line-before": [
