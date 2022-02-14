@@ -29,7 +29,6 @@
     "selector-no-qualifying-type": true,
     "block-no-empty": [true, { "ignore": ["comments"] }],
     "no-duplicate-selectors": [true, { "disallowInList": true }],
-    "function-no-unknown": true,
 
     "scale-unlimited/declaration-strict-value": [
       "/color$/",
