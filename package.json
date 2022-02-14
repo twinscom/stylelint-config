@@ -1,6 +1,6 @@
 {
   "name": "@twinscom/stylelint-config",
-  "version": "6.0.2",
+  "version": "6.1.0",
   "description": "Stylelint Shareable Config",
   "main": ".stylelintrc.json",
   "scripts": {
