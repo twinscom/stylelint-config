@@ -32,5 +32,6 @@
   "unit-disallowed-list": null,
   "unit-allowed-list": null,
   "selector-disallowed-list": null,
-  "rule-selector-property-disallowed-list": null
+  "rule-selector-property-disallowed-list": null,
+  "declaration-property-max-values": null
 }
