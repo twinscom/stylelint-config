@@ -29,9 +29,6 @@
     "selector-no-qualifying-type": true,
     "block-no-empty": [true, { "ignore": ["comments"] }],
     "no-duplicate-selectors": [true, { "disallowInList": true }],
-    "selector-not-notation": "complex",
-    "keyframe-block-no-duplicate-selectors": true,
-    "import-notation": "string",
 
     "scale-unlimited/declaration-strict-value": [
       "/color$/",
