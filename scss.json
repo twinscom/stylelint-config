@@ -28,8 +28,6 @@
     "scss/dollar-variable-colon-space-before": null,
     "scss/operator-no-newline-after": null,
     "scss/operator-no-newline-before": null,
-    "scss/operator-no-unspaced": null,
-
-    "function-no-unknown": null
+    "scss/operator-no-unspaced": null
   }
 }
