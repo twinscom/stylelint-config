@@ -32,13 +32,13 @@
     "scss.json"
   ],
   "peerDependencies": {
-    "stylelint": ">=14.9.1"
+    "stylelint": ">=14.10.0"
   },
   "dependencies": {
     "prettier": "^2.7.1",
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-recess-order": "^3.0.0",
-    "stylelint-config-standard": "^26.0.0",
+    "stylelint-config-standard": "^27.0.0",
     "stylelint-config-standard-scss": "^5.0.0",
     "stylelint-declaration-block-no-ignored-properties": "^2.5.0",
     "stylelint-declaration-strict-value": "^1.9.0",
@@ -46,6 +46,6 @@
     "stylelint-prettier": "^2.0.0"
   },
   "devDependencies": {
-    "stylelint": "^14.9.1"
+    "stylelint": "^14.10.0"
   }
 }
