@@ -29,6 +29,7 @@
     "selector-no-qualifying-type": true,
     "block-no-empty": [true, { "ignore": ["comments"] }],
     "no-duplicate-selectors": [true, { "disallowInList": true }],
+    "media-feature-range-notation": "prefix",
 
     "scale-unlimited/declaration-strict-value": [
       "/color$/",
