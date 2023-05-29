@@ -33,5 +33,8 @@
   "unit-allowed-list": null,
   "selector-disallowed-list": null,
   "rule-selector-property-disallowed-list": null,
-  "declaration-property-max-values": null
+  "declaration-property-max-values": null,
+  "declaration-property-value-no-unknown": null,
+  "media-feature-name-unit-allowed-list": null,
+  "no-unknown-custom-properties": null
 }

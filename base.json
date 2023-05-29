@@ -3,8 +3,7 @@
 
   "plugins": [
     "stylelint-declaration-strict-value",
-    "stylelint-declaration-block-no-ignored-properties",
-    "stylelint-group-selectors"
+    "stylelint-declaration-block-no-ignored-properties"
   ],
 
   "rules": {
@@ -29,7 +28,6 @@
     "selector-no-qualifying-type": true,
     "block-no-empty": [true, { "ignore": ["comments"] }],
     "no-duplicate-selectors": [true, { "disallowInList": true }],
-    "media-feature-range-notation": "prefix",
 
     "scale-unlimited/declaration-strict-value": [
       "/color$/",
@@ -41,11 +39,10 @@
       }
     ],
 
-    "plugin/declaration-block-no-ignored-properties": true,
-
-    "plugin/stylelint-group-selectors": true
+    "plugin/declaration-block-no-ignored-properties": true
   },
 
   "reportNeedlessDisables": true,
-  "reportInvalidScopeDisables": true
+  "reportInvalidScopeDisables": true,
+  "reportDescriptionlessDisables": true
 }
