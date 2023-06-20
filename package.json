@@ -32,7 +32,7 @@
     "scss.json"
   ],
   "peerDependencies": {
-    "stylelint": ">=15.6.2"
+    "stylelint": ">=15.8.0"
   },
   "dependencies": {
     "prettier": "^2.8.8",
