@@ -29,6 +29,7 @@
     "block-no-empty": [true, { "ignore": ["comments"] }],
     "no-duplicate-selectors": [true, { "disallowInList": true }],
     "media-feature-name-value-no-unknown": true,
+    "media-query-no-invalid": true,
 
     "scale-unlimited/declaration-strict-value": [
       "/color$/",
