@@ -34,3 +34,21 @@ a {
     cursor: default;
   }
 }
+
+@mixin breakpoint($name, $prefix: "max") {
+  @if not map-has-key($breakpoints, $name) {
+    @warn "Warning: `#{$name}` is not a valid breakpoint name.";
+  }
+
+  @if $prefix == "max" {
+    @media (max-width: map-get($breakpoints, $name)) {
+      @content;
+    }
+  } @else if $prefix == "min" {
+    @media (min-width: map-get($breakpoints, $name)) {
+      @content;
+    }
+  } @else {
+    @error "Available only 'max' or 'min' values";
+  }
+}

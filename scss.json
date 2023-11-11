@@ -11,8 +11,13 @@
       "always",
       {
         "except": ["blockless-after-same-name-blockless", "first-nested"],
-        "ignore": ["after-comment"]
+        "ignore": ["after-comment"],
+        "ignoreAtRules": ["else"]
       }
+    ],
+    "selector-pseudo-class-no-unknown": [
+      true,
+      { "ignorePseudoClasses": ["global", "export"] }
     ],
     "number-max-precision": 2,
 
