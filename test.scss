@@ -1,5 +1,20 @@
+$var4: 4px;
+$var8: 8px;
+
+@import "foo.css";
+
+$var15: 15px;
+$var16: 16px;
+
+a {
+  $var23: 23px;
+  $var42: 42px;
+
+  display: block;
+}
+
 @mixin button-base() {
-  @include typography(button);
+  @include typography($type: button);
   @include ripple-surface;
   @include ripple-radius-bounded;
 

@@ -16,6 +16,37 @@
     ],
     "number-max-precision": 2,
 
+    "scss/at-each-key-value-single-line": true,
+    "scss/at-function-named-arguments": "always",
+    "scss/at-mixin-named-arguments": "always",
+    "scss/at-use-no-unnamespaced": true,
+    "scss/at-use-no-redundant-alias": true,
+    "scss/dollar-variable-empty-line-after": [
+      "always",
+      { "except": ["last-nested", "before-dollar-variable"] }
+    ],
+    "scss/dollar-variable-first-in-block": [
+      true,
+      {
+        "ignore": ["imports"],
+        "except": ["function"]
+      }
+    ],
+    "scss/dollar-variable-no-namespaced-assignment": true,
+    "scss/declaration-nested-properties": "never",
+    "scss/dimension-no-non-numeric-values": true,
+    "scss/function-calculation-no-interpolation": true,
+    "scss/function-color-relative": true,
+    "scss/function-no-unknown": true,
+    "scss/map-keys-quotes": "always",
+    "scss/partial-no-import": true,
+    "scss/selector-no-redundant-nesting-selector": true,
+    "scss/selector-no-union-class-name": true,
+    "scss/no-duplicate-dollar-variables": [true, { "ignoreDefaults": false }],
+
+    "property-no-unknown": null,
+    "scss/property-no-unknown": true,
+
     "media-feature-name-value-no-unknown": null
   }
 }

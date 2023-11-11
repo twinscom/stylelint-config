@@ -36,5 +36,16 @@
   "declaration-property-max-values": null,
   "declaration-property-value-no-unknown": null,
   "media-feature-name-unit-allowed-list": null,
-  "no-unknown-custom-properties": null
+  "no-unknown-custom-properties": null,
+
+  "scss/at-import-partial-extension-blacklist": null,
+  "scss/at-import-partial-extension-whitelist": null,
+  "scss/dollar-variable-default": null,
+  "scss/double-slash-comment-inline": null,
+  "scss/block-no-redundant-nesting": null,
+  "scss/comment-no-loud": null,
+  "scss/function-disallowed-list": null,
+  "scss/media-feature-value-dollar-variable": null,
+  "scss/selector-nest-combinators": null,
+  "scss/no-dollar-variables": null
 }
