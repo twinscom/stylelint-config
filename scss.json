@@ -2,7 +2,8 @@
   "extends": [
     "./.stylelintrc.json",
     "stylelint-config-standard-scss",
-    "stylelint-prettier/recommended"
+    "stylelint-prettier/recommended",
+    "stylelint-config-prettier-scss"
   ],
 
   "rules": {
@@ -15,21 +16,6 @@
     ],
     "number-max-precision": 2,
 
-    "media-feature-name-value-no-unknown": null,
-
-    "scss/at-else-closing-brace-newline-after": null,
-    "scss/at-else-closing-brace-space-after": null,
-    "scss/at-else-empty-line-before": null,
-    "scss/at-else-if-parentheses-space-before": null,
-    "scss/at-function-parentheses-space-before": null,
-    "scss/at-if-closing-brace-newline-after": null,
-    "scss/at-if-closing-brace-space-after": null,
-    "scss/at-mixin-parentheses-space-before": null,
-    "scss/dollar-variable-colon-newline-after": null,
-    "scss/dollar-variable-colon-space-after": null,
-    "scss/dollar-variable-colon-space-before": null,
-    "scss/operator-no-newline-after": null,
-    "scss/operator-no-newline-before": null,
-    "scss/operator-no-unspaced": null
+    "media-feature-name-value-no-unknown": null
   }
 }
