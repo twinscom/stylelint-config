@@ -51,6 +51,7 @@
     },
     "function-url-scheme-allowed-list": ["data", "/^https/"],
     "unit-disallowed-list": ["cm", "mm", "Q", "in", "pc", "pt", "em"],
+    "alpha-value-notation": "percentage",
 
     "scale-unlimited/declaration-strict-value": [
       "/color$/",

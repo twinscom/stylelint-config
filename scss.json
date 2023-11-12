@@ -20,6 +20,7 @@
       { "ignorePseudoClasses": ["global", "export"] }
     ],
     "number-max-precision": 2,
+    "alpha-value-notation": "percentage",
 
     "scss/at-each-key-value-single-line": true,
     "scss/at-function-named-arguments": "always",
