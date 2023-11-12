@@ -84,7 +84,12 @@
       }
     ],
 
-    "plugin/use-logical-properties-and-values": true,
+    "plugin/use-logical-properties-and-values": [
+      true,
+      {
+        "ignore": ["overflow-y", "overflow-x"]
+      }
+    ],
     "plugin/use-logical-units": true,
 
     "rem-over-px/rem-over-px": true,
@@ -126,7 +131,7 @@
     ],
     "scales/space": [
       {
-        "scale": [0.5, 1, 2, 4],
+        "scale": [-1000, 0.25, 0.5, 1, 2, 4],
         "units": ["rem"]
       }
     ],
