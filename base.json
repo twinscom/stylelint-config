@@ -6,7 +6,8 @@
     "stylelint-declaration-block-no-ignored-properties",
     "stylelint-group-selectors",
     "stylelint-high-performance-animation",
-    "@isnotdefined/stylelint-plugin"
+    "@isnotdefined/stylelint-plugin",
+    "stylelint-plugin-defensive-css"
   ],
 
   "rules": {
@@ -53,7 +54,21 @@
 
     "plugin/no-low-performance-animation-properties": true,
 
-    "@isnotdefined/no-obsolete": true
+    "@isnotdefined/no-obsolete": true,
+
+    "plugin/use-defensive-css": [
+      true,
+      {
+        "accidental-hover": true,
+        "background-repeat": true,
+        "flex-wrapping": true,
+        "scroll-chaining": true,
+        "scrollbar-gutter": true,
+        "vendor-prefix-grouping": true,
+
+        "custom-property-fallbacks": false
+      }
+    ]
   },
 
   "reportNeedlessDisables": true,
