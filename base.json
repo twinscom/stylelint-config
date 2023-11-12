@@ -4,7 +4,8 @@
   "plugins": [
     "stylelint-declaration-strict-value",
     "stylelint-declaration-block-no-ignored-properties",
-    "stylelint-group-selectors"
+    "stylelint-group-selectors",
+    "stylelint-high-performance-animation"
   ],
 
   "rules": {
@@ -47,7 +48,9 @@
 
     "plugin/declaration-block-no-ignored-properties": true,
 
-    "plugin/stylelint-group-selectors": true
+    "plugin/stylelint-group-selectors": true,
+
+    "plugin/no-low-performance-animation-properties": true
   },
 
   "reportNeedlessDisables": true,

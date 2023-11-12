@@ -43,6 +43,7 @@
     "stylelint-declaration-block-no-ignored-properties": "^2.7.0",
     "stylelint-declaration-strict-value": "^1.9.2",
     "stylelint-group-selectors": "^1.0.10",
+    "stylelint-high-performance-animation": "^1.9.0",
     "stylelint-prettier": "^4.0.2"
   },
   "devDependencies": {
