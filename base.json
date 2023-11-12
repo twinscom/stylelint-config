@@ -7,7 +7,8 @@
     "stylelint-group-selectors",
     "stylelint-high-performance-animation",
     "@isnotdefined/stylelint-plugin",
-    "stylelint-plugin-defensive-css"
+    "stylelint-plugin-defensive-css",
+    "stylelint-plugin-logical-css"
   ],
 
   "rules": {
@@ -68,7 +69,10 @@
 
         "custom-property-fallbacks": false
       }
-    ]
+    ],
+
+    "plugin/use-logical-properties-and-values": true,
+    "plugin/use-logical-units": true
   },
 
   "reportNeedlessDisables": true,

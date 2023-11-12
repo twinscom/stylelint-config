@@ -21,7 +21,7 @@ a {
   position: relative;
   display: inline-flex;
   flex-wrap: wrap;
-  height: $button-height;
+  block-size: $button-height;
   vertical-align: middle;
   border: none;
 
