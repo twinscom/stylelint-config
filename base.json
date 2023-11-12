@@ -117,7 +117,7 @@
     ],
     "scales/line-heights": [1.25, 1.5, 1.75, 2],
     "scales/radii": [
-      { "scale": [0.5, 1], "units": ["rem"] },
+      { "scale": [0.25, 0.5, 1], "units": ["rem"] },
       {
         "scale": [25, 50],
         "units": ["%"]
