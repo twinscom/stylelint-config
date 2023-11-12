@@ -47,7 +47,9 @@
     "stylelint-high-performance-animation": "^1.9.0",
     "stylelint-plugin-defensive-css": "^0.10.2",
     "stylelint-plugin-logical-css": "^0.13.2",
-    "stylelint-prettier": "^4.0.2"
+    "stylelint-prettier": "^4.0.2",
+    "stylelint-rem-over-px": "^1.0.1",
+    "stylelint-scales": "^3.1.0"
   },
   "devDependencies": {
     "stylelint": "^15.11.0"

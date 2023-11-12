@@ -1,14 +1,14 @@
-$var4: 4px;
-$var8: 8px;
+$var4: 4rem;
+$var8: 8rem;
 
 @import "foo.css";
 
-$var15: 15px;
-$var16: 16px;
+$var15: 15rem;
+$var16: 16rem;
 
 a {
-  $var23: 23px;
-  $var42: 42px;
+  $var23: 23rem;
+  $var42: 42rem;
 
   display: block;
 }

@@ -8,13 +8,15 @@
     "stylelint-high-performance-animation",
     "@isnotdefined/stylelint-plugin",
     "stylelint-plugin-defensive-css",
-    "stylelint-plugin-logical-css"
+    "stylelint-plugin-logical-css",
+    "stylelint-rem-over-px",
+    "stylelint-scales"
   ],
 
   "rules": {
     "color-named": "never",
     "declaration-no-important": true,
-    "font-weight-notation": "named-where-possible",
+    "font-weight-notation": "numeric",
     "function-url-no-scheme-relative": true,
     "max-nesting-depth": 5,
     "no-unknown-animations": true,
@@ -38,6 +40,17 @@
       true,
       { "ignorePseudoClasses": ["global", "export"] }
     ],
+    "declaration-property-unit-allowed-list": {
+      "/^font-size$|^font$/": ["rem"],
+      "letter-spacing": ["rem"],
+      "line-height": [],
+      "/radius$/": ["rem", "%"],
+      "/^inset|gap|^margin|^padding/": ["rem"],
+      "word-spacing": ["rem"],
+      "/^animation/": "s"
+    },
+    "function-url-scheme-allowed-list": ["data", "/^https/"],
+    "unit-disallowed-list": ["cm", "mm", "Q", "in", "pc", "pt", "em"],
 
     "scale-unlimited/declaration-strict-value": [
       "/color$/",
@@ -72,7 +85,58 @@
     ],
 
     "plugin/use-logical-properties-and-values": true,
-    "plugin/use-logical-units": true
+    "plugin/use-logical-units": true,
+
+    "rem-over-px/rem-over-px": true,
+
+    "scales/alpha-values": [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100],
+    "scales/border-widths": [
+      { "scale": [1, 2], "units": ["px"] },
+      {
+        "scale": [0.25, 0.5, 1],
+        "units": ["rem"]
+      }
+    ],
+    "scales/font-sizes": [
+      {
+        "scale": [0.8, 0.9, 1, 1.25, 1.5, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+        "units": ["rem"]
+      }
+    ],
+    "scales/font-weights": [100, 200, 400, 700, 900],
+    "scales/letter-spacings": [
+      {
+        "scale": [0.05, 0.1, 0.15, 0.2],
+        "units": ["rem"]
+      }
+    ],
+    "scales/line-heights": [1.25, 1.5, 1.75, 2],
+    "scales/radii": [
+      { "scale": [0.5, 1], "units": ["rem"] },
+      {
+        "scale": [25, 50],
+        "units": ["%"]
+      }
+    ],
+    "scales/sizes": [
+      {
+        "scale": [10, 20, 25, 30, 40, 50, 60, 70, 75, 80, 90, 100],
+        "units": ["%"]
+      }
+    ],
+    "scales/space": [
+      {
+        "scale": [0.5, 1, 2, 4],
+        "units": ["rem"]
+      }
+    ],
+    "scales/word-spacings": [
+      {
+        "scale": [0.1, 0.2],
+        "units": ["rem"]
+      }
+    ],
+    "scales/z-indices": [-1, 1, 2, 3, 4, 5, 1000000]
   },
 
   "reportNeedlessDisables": true,
