@@ -20,12 +20,15 @@ a {
 
   position: relative;
   display: inline-flex;
+  flex-wrap: wrap;
   height: $button-height;
   vertical-align: middle;
   border: none;
 
-  &:hover {
-    cursor: pointer;
+  @media (hover: hover) {
+    &:hover {
+      cursor: pointer;
+    }
   }
 
   &:disabled {
