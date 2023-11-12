@@ -30,6 +30,10 @@
     "block-no-empty": [true, { "ignore": ["comments"] }],
     "no-duplicate-selectors": [true, { "disallowInList": true }],
     "media-feature-name-value-no-unknown": true,
+    "selector-pseudo-class-no-unknown": [
+      true,
+      { "ignorePseudoClasses": ["global", "export"] }
+    ],
 
     "scale-unlimited/declaration-strict-value": [
       "/color$/",

@@ -8,10 +8,6 @@
         "except": ["blockless-after-same-name-blockless", "first-nested"],
         "ignore": ["after-comment"]
       }
-    ],
-    "selector-pseudo-class-no-unknown": [
-      true,
-      { "ignorePseudoClasses": ["global", "export"] }
     ]
   }
 }
