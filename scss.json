@@ -1,4 +1,6 @@
 {
+  "$schema": "https://json.schemastore.org/stylelintrc.json",
+
   "extends": [
     "./.stylelintrc.json",
     "stylelint-config-standard-scss",
