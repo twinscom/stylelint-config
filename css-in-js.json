@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json.schemastore.org/stylelintrc.json",
+
+  "extends": ["./scss.json"],
+
+  "customSyntax": "postcss-styled-syntax",
+
+  "rules": {
+    "scss/at-function-named-arguments": null,
+    "scale-unlimited/declaration-strict-value": null
+  }
+}

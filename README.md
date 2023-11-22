@@ -34,6 +34,16 @@ and
 }
 ```
 
+## CSS-in-JS (styled-components/Emotion)
+
+Same as SCSS, but for `*.{j,t}sx` files.
+
+```json
+{
+  "extends": ["@twinscom/stylelint-config/css-in-js"]
+}
+```
+
 ## [Changelog](https://github.com/twinscom/stylelint-config/releases)
 
 ## License

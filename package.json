@@ -4,7 +4,7 @@
   "description": "Stylelint Shareable Config",
   "main": ".stylelintrc.json",
   "scripts": {
-    "test": "stylelint **/*.css && stylelint --config ./scss.json **/*.scss",
+    "test": "stylelint **/*.css && stylelint --config ./scss.json **/*.scss && stylelint --config ./css-in-js.json **/*.tsx",
     "preversion": "npm test",
     "postversion": "git push && git push --tags && npm publish"
   },
@@ -29,13 +29,15 @@
   "files": [
     "base.json",
     ".stylelintrc.json",
-    "scss.json"
+    "scss.json",
+    "css-in-js.json"
   ],
   "peerDependencies": {
     "stylelint": ">=15.10.1"
   },
   "dependencies": {
     "@isnotdefined/stylelint-plugin": "^3.1.0",
+    "postcss-styled-syntax": "^0.5.0",
     "prettier": "^3.1.0",
     "stylelint-config-prettier-scss": "^1.0.0",
     "stylelint-config-recess-order": "^4.4.0",
