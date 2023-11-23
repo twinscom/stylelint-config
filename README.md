@@ -3,9 +3,7 @@
 [![npm (scoped)](https://img.shields.io/npm/v/@twinscom/stylelint-config.svg?style=flat-square)](https://www.npmjs.com/package/@twinscom/stylelint-config)
 
 Based on
-[stylelint-config-standard](https://github.com/stylelint/stylelint-config-standard)
-and
-[stylelint-prettier](https://github.com/prettier/stylelint-prettier).
+[stylelint-config-standard](https://github.com/stylelint/stylelint-config-standard).
 
 ## Installation
 
@@ -24,9 +22,7 @@ Then set your `.stylelintrc.json` config to:
 ## SCSS
 
 Based on
-[stylelint-config-standard-scss](https://github.com/stylelint-scss/stylelint-config-standard-scss)
-and
-[stylelint-prettier](https://github.com/prettier/stylelint-prettier).
+[stylelint-config-standard-scss](https://github.com/stylelint-scss/stylelint-config-standard-scss).
 
 ```json
 {
