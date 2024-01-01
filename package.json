@@ -45,7 +45,7 @@
     "stylelint-declaration-block-no-ignored-properties": "^2.7.0",
     "stylelint-declaration-strict-value": "^1.9.2",
     "stylelint-group-selectors": "^1.0.10",
-    "stylelint-high-performance-animation": "^1.9.0",
+    "stylelint-high-performance-animation": "^1.10.0",
     "stylelint-plugin-defensive-css": "^0.10.2",
     "stylelint-plugin-logical-css": "^0.13.2",
     "stylelint-rem-over-px": "^1.0.1",
