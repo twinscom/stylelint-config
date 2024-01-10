@@ -33,26 +33,26 @@
     "css-in-js.json"
   ],
   "peerDependencies": {
-    "stylelint": ">=15.10.1"
+    "stylelint": ">=16.1.0"
   },
   "dependencies": {
-    "@isnotdefined/stylelint-plugin": "^3.1.0",
+    "@isnotdefined/stylelint-plugin": "^4.0.0",
     "postcss-styled-syntax": "^0.6.4",
     "stylelint-config-prettier-scss": "^1.0.0",
     "stylelint-config-recess-order": "^4.4.0",
-    "stylelint-config-standard": "^34.0.0",
-    "stylelint-config-standard-scss": "^11.1.0",
-    "stylelint-declaration-block-no-ignored-properties": "^2.7.0",
-    "stylelint-declaration-strict-value": "^1.9.2",
+    "stylelint-config-standard": "^36.0.0",
+    "stylelint-config-standard-scss": "^13.0.0",
+    "stylelint-declaration-block-no-ignored-properties": "^2.8.0",
+    "stylelint-declaration-strict-value": "^1.10.4",
     "stylelint-group-selectors": "^1.0.10",
-    "stylelint-high-performance-animation": "^1.9.0",
-    "stylelint-plugin-defensive-css": "^0.10.2",
-    "stylelint-plugin-logical-css": "^0.13.2",
+    "stylelint-high-performance-animation": "^1.10.0",
+    "stylelint-plugin-defensive-css": "^1.0.0",
+    "stylelint-plugin-logical-css": "^1.0.0",
     "stylelint-rem-over-px": "^1.0.1",
-    "stylelint-scales": "^3.1.1"
+    "stylelint-scales": "^4.0.0"
   },
   "devDependencies": {
-    "stylelint": "^15.11.0"
+    "stylelint": "^16.1.0"
   },
   "engines": {
     "node": ">=18.0.0",
