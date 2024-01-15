@@ -46,7 +46,7 @@
     "stylelint-declaration-strict-value": "^1.10.4",
     "stylelint-group-selectors": "^1.0.10",
     "stylelint-high-performance-animation": "^1.10.0",
-    "stylelint-plugin-defensive-css": "^1.0.0",
+    "stylelint-plugin-defensive-css": "^1.0.1",
     "stylelint-plugin-logical-css": "^1.0.0",
     "stylelint-rem-over-px": "^1.0.1",
     "stylelint-scales": "^4.0.0"
