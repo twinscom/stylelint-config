@@ -39,7 +39,7 @@
     "@isnotdefined/stylelint-plugin": "^4.0.0",
     "postcss-styled-syntax": "^0.6.4",
     "stylelint-config-prettier-scss": "^1.0.0",
-    "stylelint-config-recess-order": "^4.4.0",
+    "stylelint-config-recess-order": "^4.6.0",
     "stylelint-config-standard": "^36.0.0",
     "stylelint-config-standard-scss": "^13.0.0",
     "stylelint-declaration-block-no-ignored-properties": "^2.8.0",
