@@ -34,6 +34,7 @@
   "declaration-property-value-no-unknown": null,
   "media-feature-name-unit-allowed-list": null,
   "no-unknown-custom-properties": null,
+  "no-unknown-custom-media": null,
 
   "scss/at-import-partial-extension-blacklist": null,
   "scss/at-import-partial-extension-whitelist": null,
