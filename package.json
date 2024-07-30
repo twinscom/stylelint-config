@@ -52,7 +52,7 @@
     "stylelint-scales": "^4.0.0"
   },
   "devDependencies": {
-    "stylelint": "^16.7.0"
+    "stylelint": "^16.8.0"
   },
   "engines": {
     "node": ">=18.0.0",
