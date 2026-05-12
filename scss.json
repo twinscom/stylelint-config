@@ -54,6 +54,9 @@
     "property-no-unknown": null,
     "scss/property-no-unknown": true,
 
-    "media-feature-name-value-no-unknown": null
+    "media-feature-name-value-no-unknown": null,
+    "at-rule-descriptor-no-unknown": null,
+    "at-rule-descriptor-value-no-unknown": null,
+    "at-rule-prelude-no-invalid": null
   }
 }

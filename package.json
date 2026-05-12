@@ -33,10 +33,9 @@
     "css-in-js.json"
   ],
   "peerDependencies": {
-    "stylelint": ">=16.1.0"
+    "stylelint": ">=16.26.1"
   },
   "dependencies": {
-    "@isnotdefined/stylelint-plugin": "^6.1.1",
     "postcss-styled-syntax": "^0.7.1",
     "stylelint-config-prettier-scss": "^1.0.0",
     "stylelint-config-recess-order": "^5.1.1",
@@ -52,7 +51,7 @@
     "stylelint-scales": "^5.0.0"
   },
   "devDependencies": {
-    "stylelint": "^16.10.0"
+    "stylelint": "^16.26.1"
   },
   "engines": {
     "node": ">=18.0.0",

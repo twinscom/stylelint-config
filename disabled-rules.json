@@ -35,6 +35,9 @@
   "media-feature-name-unit-allowed-list": null,
   "no-unknown-custom-properties": null,
   "no-unknown-custom-media": null,
+  "layer-name-pattern": null,
+  "container-name-pattern": null,
+  "rule-nesting-at-rule-required-list": null,
 
   "scss/at-import-partial-extension-blacklist": null,
   "scss/at-import-partial-extension-whitelist": null,

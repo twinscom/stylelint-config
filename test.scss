@@ -25,16 +25,20 @@ a {
   vertical-align: middle;
   border: none;
 
-  @media (hover: hover) {
-    &:hover {
-      cursor: pointer;
+  a {
+    @media (hover: hover) {
+      &:hover {
+        cursor: pointer;
+      }
     }
   }
 
-  &:disabled {
-    color: $mdc-button-disabled-ink-color;
-    pointer-events: none;
-    cursor: default;
+  button {
+    &:disabled {
+      color: $mdc-button-disabled-ink-color;
+      pointer-events: none;
+      cursor: default;
+    }
   }
 }
 

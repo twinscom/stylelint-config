@@ -8,7 +8,6 @@
     "stylelint-declaration-block-no-ignored-properties",
     "stylelint-group-selectors",
     "stylelint-high-performance-animation",
-    "@isnotdefined/stylelint-plugin",
     "stylelint-plugin-defensive-css",
     "stylelint-plugin-logical-css",
     "stylelint-rem-over-px",
@@ -54,6 +53,18 @@
     "function-url-scheme-allowed-list": ["data", "/^https/"],
     "unit-disallowed-list": ["cm", "mm", "Q", "in", "pc", "pt", "em"],
     "alpha-value-notation": "percentage",
+    "at-rule-no-deprecated": true,
+    "declaration-property-value-keyword-no-deprecated": true,
+    "at-rule-descriptor-no-unknown": true,
+    "at-rule-descriptor-value-no-unknown": true,
+    "at-rule-prelude-no-invalid": true,
+    "color-function-alias-notation": "without-alpha",
+    "syntax-string-no-invalid": true,
+    "block-no-redundant-nested-style-rules": true,
+    "media-type-no-deprecated": true,
+    "nesting-selector-no-missing-scoping-root": true,
+    "no-invalid-position-declaration": true,
+    "property-no-deprecated": true,
 
     "scale-unlimited/declaration-strict-value": [
       "/color$/",
@@ -70,8 +81,6 @@
     "plugin/stylelint-group-selectors": true,
 
     "plugin/no-low-performance-animation-properties": true,
-
-    "@isnotdefined/no-obsolete": true,
 
     "plugin/use-defensive-css": [
       true,
@@ -150,5 +159,6 @@
 
   "reportNeedlessDisables": true,
   "reportInvalidScopeDisables": true,
-  "reportDescriptionlessDisables": true
+  "reportDescriptionlessDisables": true,
+  "reportUnscopedDisables": true
 }
