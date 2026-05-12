@@ -52,11 +52,6 @@
     "scss/no-duplicate-dollar-variables": [true, { "ignoreDefaults": false }],
 
     "property-no-unknown": null,
-    "scss/property-no-unknown": true,
-
-    "media-feature-name-value-no-unknown": null,
-    "at-rule-descriptor-no-unknown": null,
-    "at-rule-descriptor-value-no-unknown": null,
-    "at-rule-prelude-no-invalid": null
+    "scss/property-no-unknown": true
   }
 }
