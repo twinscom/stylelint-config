@@ -82,6 +82,7 @@
         "scroll-chaining": true,
         "scrollbar-gutter": true,
         "vendor-prefix-grouping": true,
+        "grid-line-names": true,
 
         "custom-property-fallbacks": false
       }
