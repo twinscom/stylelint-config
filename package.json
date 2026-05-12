@@ -33,29 +33,28 @@
     "css-in-js.json"
   ],
   "peerDependencies": {
-    "stylelint": ">=16.26.1"
+    "stylelint": ">=17.11.0"
   },
   "dependencies": {
     "postcss-styled-syntax": "^0.7.1",
     "stylelint-config-prettier-scss": "^1.0.0",
     "stylelint-config-recess-order": "^7.7.0",
     "stylelint-order": "^8.1.1",
-    "stylelint-config-standard": "^39.0.1",
-    "stylelint-config-standard-scss": "^16.0.0",
-    "stylelint-declaration-block-no-ignored-properties": "^2.8.0",
+    "stylelint-config-standard": "^40.0.0",
+    "stylelint-config-standard-scss": "^17.0.0",
+    "stylelint-declaration-block-no-ignored-properties": "^3.0.0",
     "stylelint-declaration-strict-value": "^1.11.1",
     "stylelint-group-selectors": "^1.0.10",
-    "stylelint-high-performance-animation": "^1.11.0",
-    "stylelint-plugin-defensive-css": "^1.1.1",
-    "stylelint-plugin-logical-css": "^1.3.0",
+    "stylelint-high-performance-animation": "^2.0.0",
+    "stylelint-plugin-defensive-css": "^2.9.1",
     "stylelint-rem-over-px": "^1.0.2",
     "stylelint-scales": "^5.0.0"
   },
   "devDependencies": {
-    "stylelint": "^16.26.1"
+    "stylelint": "^17.11.0"
   },
   "engines": {
-    "node": ">=18.0.0",
-    "npm": ">=8.0.0"
+    "node": ">=24.15.0",
+    "npm": ">=11.12.1"
   }
 }

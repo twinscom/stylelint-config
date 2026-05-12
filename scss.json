@@ -52,6 +52,8 @@
     "scss/no-duplicate-dollar-variables": [true, { "ignoreDefaults": false }],
 
     "property-no-unknown": null,
-    "scss/property-no-unknown": true
+    "scss/property-no-unknown": true,
+
+    "selector-no-invalid": null
   }
 }

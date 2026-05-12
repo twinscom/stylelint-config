@@ -6,56 +6,58 @@ $var8: 8rem;
 $var15: 15rem;
 $var16: 16rem;
 
-a {
-  $var23: 23rem;
-  $var42: 42rem;
-
-  display: block;
-}
-
-@mixin button-base() {
-  @include typography($type: button);
-  @include ripple-surface;
-  @include ripple-radius-bounded;
-
-  position: relative;
-  display: inline-flex;
-  flex-wrap: wrap;
-  block-size: $button-height;
-  vertical-align: middle;
-  border: none;
-
+@layer test {
   a {
-    @media (hover: hover) {
-      &:hover {
-        cursor: pointer;
+    $var23: 23rem;
+    $var42: 42rem;
+
+    display: block;
+  }
+
+  @mixin button-base() {
+    @include typography($type: button);
+    @include ripple-surface;
+    @include ripple-radius-bounded;
+
+    position: relative;
+    display: inline-flex;
+    flex-wrap: wrap;
+    block-size: $button-height;
+    vertical-align: middle;
+    border: none;
+
+    a {
+      @media (hover: hover) {
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+
+    button {
+      &:disabled {
+        color: $mdc-button-disabled-ink-color;
+        pointer-events: none;
+        cursor: default;
       }
     }
   }
 
-  button {
-    &:disabled {
-      color: $mdc-button-disabled-ink-color;
-      pointer-events: none;
-      cursor: default;
+  @mixin breakpoint($name, $prefix: "max") {
+    @if not map.has-key($breakpoints, $name) {
+      @warn "Warning: `#{$name}` is not a valid breakpoint name.";
     }
-  }
-}
 
-@mixin breakpoint($name, $prefix: "max") {
-  @if not map.has-key($breakpoints, $name) {
-    @warn "Warning: `#{$name}` is not a valid breakpoint name.";
-  }
-
-  @if $prefix == "max" {
-    @media (max-width: map.get($breakpoints, $name)) {
-      @content;
+    @if $prefix == "max" {
+      @media (max-width: map.get($breakpoints, $name)) {
+        @content;
+      }
+    } @else if $prefix == "min" {
+      @media (min-width: map.get($breakpoints, $name)) {
+        @content;
+      }
+    } @else {
+      @error "Available only 'max' or 'min' values";
     }
-  } @else if $prefix == "min" {
-    @media (min-width: map.get($breakpoints, $name)) {
-      @content;
-    }
-  } @else {
-    @error "Available only 'max' or 'min' values";
   }
 }

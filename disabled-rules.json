@@ -36,8 +36,6 @@
   "no-unknown-custom-media": null,
   "rule-nesting-at-rule-required-list": null,
 
-  "scss/at-import-partial-extension-blacklist": null,
-  "scss/at-import-partial-extension-whitelist": null,
   "scss/dollar-variable-default": null,
   "scss/double-slash-comment-inline": null,
   "scss/block-no-redundant-nesting": null,

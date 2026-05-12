@@ -1,7 +1,11 @@
 {
   "$schema": "https://json.schemastore.org/stylelintrc.json",
 
-  "extends": ["stylelint-config-standard", "stylelint-config-recess-order"],
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-recess-order",
+    "stylelint-plugin-defensive-css/configs/strict"
+  ],
 
   "plugins": [
     "stylelint-declaration-strict-value",
@@ -9,7 +13,6 @@
     "stylelint-group-selectors",
     "stylelint-high-performance-animation",
     "stylelint-plugin-defensive-css",
-    "stylelint-plugin-logical-css",
     "stylelint-rem-over-px",
     "stylelint-scales"
   ],
@@ -52,6 +55,12 @@
     "function-url-scheme-allowed-list": ["data", "/^https/"],
     "unit-disallowed-list": ["cm", "mm", "Q", "in", "pc", "pt", "em"],
     "alpha-value-notation": "percentage",
+    "property-layout-mappings": "flow-relative",
+    "unit-layout-mappings": "flow-relative",
+    "value-keyword-layout-mappings": "flow-relative",
+    "relative-selector-nesting-notation": "implicit",
+    "selector-no-deprecated": true,
+    "selector-no-invalid": true,
 
     "scale-unlimited/declaration-strict-value": [
       "/color$/",
@@ -68,29 +77,6 @@
     "plugin/stylelint-group-selectors": true,
 
     "plugin/no-low-performance-animation-properties": true,
-
-    "plugin/use-defensive-css": [
-      true,
-      {
-        "accidental-hover": true,
-        "background-repeat": true,
-        "flex-wrapping": true,
-        "scroll-chaining": true,
-        "scrollbar-gutter": true,
-        "vendor-prefix-grouping": true,
-        "grid-line-names": true,
-
-        "custom-property-fallbacks": false
-      }
-    ],
-
-    "plugin/use-logical-properties-and-values": [
-      true,
-      {
-        "ignore": ["overflow-y", "overflow-x"]
-      }
-    ],
-    "plugin/use-logical-units": true,
 
     "rem-over-px/rem-over-px": true,
 
@@ -141,11 +127,21 @@
         "units": ["rem"]
       }
     ],
-    "scales/z-indices": [-1, 1, 2, 3, 4, 5, 1000000]
+    "scales/z-indices": [-1, 1, 2, 3, 4, 5, 1000000],
+
+    "defensive-css/require-custom-property-fallback": null,
+    "defensive-css/require-pure-selectors": null
   },
 
   "reportNeedlessDisables": true,
   "reportInvalidScopeDisables": true,
   "reportDescriptionlessDisables": true,
-  "reportUnscopedDisables": true
+  "reportUnscopedDisables": true,
+
+  "languageOptions": {
+    "directionality": {
+      "block": "top-to-bottom",
+      "inline": "left-to-right"
+    }
+  }
 }
