@@ -43,14 +43,12 @@
       true,
       { "ignorePseudoClasses": ["global", "export"] }
     ],
+    "declaration-property-unit-disallowed-list": {
+      "/.*/": ["cm", "mm", "q", "Q", "in", "pc", "pt"]
+    },
     "declaration-property-unit-allowed-list": {
-      "/^font-size$|^font$/": ["rem"],
-      "letter-spacing": ["rem"],
       "line-height": [],
-      "/radius$/": ["rem", "%"],
-      "/^inset|gap|^margin|^padding/": ["rem"],
-      "word-spacing": ["rem"],
-      "/^animation/": "s"
+      "/^(animation|transition)/": ["ms"]
     },
     "function-url-scheme-allowed-list": ["data", "/^https/"],
     "unit-disallowed-list": ["cm", "mm", "Q", "in", "pc", "pt", "em"],

@@ -6,7 +6,6 @@
   "at-rule-allowed-list": null,
   "comment-pattern": null,
   "comment-word-disallowed-list": null,
-  "declaration-property-unit-disallowed-list": null,
   "declaration-property-value-disallowed-list": null,
   "declaration-property-value-allowed-list": null,
   "function-disallowed-list": null,
